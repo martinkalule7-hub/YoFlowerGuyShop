@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News | YoFlowerShop Kireka</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .news-btn {
+            background: #3498db;
+            border: none;
+            padding: 15px 25px;
+            font-size: 16px;
+            color: white;
+            border-radius: 15px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .news-btn:hover { background: #1ebe5d; }
+        
+        .product-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+        }
+        .product-table th, .product-table td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+        }
+        .product-table th { background-color: #27ae60; color: white; }
+
+        /* This keeps images tidy and adds a gray background if they are missing */
+        .table-img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 8px;
+            background: #eee; 
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+<header style="text-align: center; padding: 20px; background: #2c3e50; color: white;">
+    <h1>Home & Garden Florists</h1>
+</header>
+
+<nav style="text-align: center; background: #34495e; padding: 10px;">
+    <a href="index.html" style="color: white; margin: 0 10px; text-decoration: none;">Home</a>
+    <a href="News.html" style="color: white; margin: 0 10px; text-decoration: none;">News</a> 
+<a href="Products.html" style="color: white; margin: 0 10px; text-decoration: none;">Products</a> 
+    <a href="About.html" style="color: white; margin: 0 10px; text-decoration: none;">About</a>
+    <a href="Contacts Page.html" style="color: white; margin: 0 10px; text-decoration: none;">Contact</a>
+</nav>
+
+<main style="padding: 20px; max-width: 900px; margin: auto; text-align: center;">
+    <h1>Latest News</h1>
+    <p>Hand-made in <strong>Kireka, Uganda</strong></p>
+
+    <a href="products.html" class="news-btn">Browse Full Collection</a>
+
+    <section style="margin-top: 30px;">
+        <!-- Using the filename you provided earlier -->
+        <img src="20260212_135607.jpg" alt="Featured Flower Arrangement" style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    </section>
+
+    <table class="product-table">
+        <caption>Bottle Arrangements - UGX 10,000 Each</caption>
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Bottle Type</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- If you don't have these exact files, rename your photos to match these names -->
+                <td><img src="four_cousins.jpg" alt="Four Cousins" class="table-img"></td>
+                <td>Four Cousins Wine Bottle</td>
+                <td>UGX 10,000</td>
+            </tr>
+            <tr>
+                <td><img src="uganda_waragi.jpg" alt="Uganda Waragi" class="table-img"></td>
+                <td>Uganda Waragi Spirit Bottle</td>
+                <td>UGX 10,000</td>
+            </tr>
+            <tr>
+                <td><img src="double_black.jpg" alt="Double Black" class="table-img"></td>
+                <td>Double Black Premium Bottle</td>
+                <td>UGX 10,000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p style="margin-top: 20px;"><a href="index.html">← Back to Home</a></p>
+</main>
+
+<footer style="text-align: center; padding: 20px; background: #2c3e50; color: white; margin-top: 40px;">
+    &copy; <i>HUZAKIM 2026.</i>
+</footer>
+
+</body>
+</html>
